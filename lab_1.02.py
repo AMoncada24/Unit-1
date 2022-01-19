@@ -40,16 +40,16 @@ c   10/2                        integer                     5                   
 d   10%2                        integer                     0                                   0
 e   2 ** 3                      integer                     6                                   8
 f   (2+5)*3                     integer                     21                                  21
-g   2 + 5 * 3
-h   'ab' + '12' + '3'
-i   x
-j   "ab" + "cd"
-k   'abc' * 2
-l   '1'*2 + '2' * 3
-m   1 * 2 + '3' * 2
-n   'A' ** 2
-o   'bc' % 2
-p   'bc' / 2
+g   2 + 5 * 3                   integer                     17                                  17
+h   'ab' + '12' + '3'           string                      ab15                                'ab123'
+i   x                           error                       x                                   error
+j   "ab" + "cd"                 string                      'abcd'                              'abcd'                            
+k   'abc' * 2                   string                      'abc2'                              'abcabc'
+l   '1'*2 + '2' * 3             string                      '11222'                             '11222'
+m   1 * 2 + '3' * 2             error                       '233'                               error
+n   'A' ** 2                    error                       'AA'                                error
+o   'bc' % 2                    error                       'bc%2'                              error
+p   'bc' / 2                    error                       'bc/2'                              error
 
 Now go to the IDE
 Use the interpreter to evaluate the expressions, write down results in the "Interpreter Result" column.
