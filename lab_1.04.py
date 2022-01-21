@@ -30,11 +30,10 @@ Hint
 Remember to add spaces you can combine " " to the end of your string using the + operator. So
 print("hello" + " " + "student") would print hello student
 '''
-from tkinter import Variable
 
 
 print("Hello, I am the Magic Genie!")
 wish1 = input("What is your first wish? ")
 wish2 = input("What is your second wish? ")
 wish3 = input("What is your third wish? ")
-print("Your wishes were wish1, wish2, and wish3.")
+print("Your wishes were" ,wish1, wish2, "and" ,wish3)
