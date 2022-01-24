@@ -1,12 +1,15 @@
 print("A Walk In The Park: A Mad Lib")
 print("Instructions: You will be asked for a type of word. \nAnswer each correctly and the story will be written when you are finished.")
-placeholder1 = input
-placeholder2 = input
-placeholder3 = input
-placeholder4 = input
-placeholder5 = input
-placeholder6 = input
-placeholder7 = input
-placeholder8 = input
-placeholder9 = input
-placeholder10 = input
+person1 = input("Please enter a person's name. ")
+person2 = input("Please enter another person's name. ")
+animal1 = input("Please enter the name of an animal. ")
+place1 = input("Please enter the name of a place. ")
+adjective1 = input("Please enter an ajective. ")
+adjective2 = input("Please enter a second adjective. ")
+adjective3 = input("Please enter a third adjective. ")
+adverb1 = input("Please enter an adverb. ")
+adverb2 = input("Please enter a second adverb. ")
+adverb3 = input("Please enter a third adverb. ")
+print(f"One day, {person1} was walking in a park in {place1} when\n they encountered a {adjective1} {animal1}. {person1} was scared by the {animal1} so\n they ran away {adverb1}.")
+print(f"They weren't looking where they were going so they tripped and fell\n onto {person2}! {person2} was {adjective2} so {person1} had to run away {adverb2},\n all the way to their {adjective3} home, {adverb3}.")
+print(f"The end.")
